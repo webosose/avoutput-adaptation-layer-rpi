@@ -1,0 +1,25 @@
+{
+  "videoCapabilities":{
+      "maxResolution":{
+        "x":1920,
+        "y":1080,
+        "freq":60
+      },
+      "minResolution" :{
+        "x":640,
+        "y":480,
+        "freq":60
+      }
+  },
+  "planes" : [
+    "MAIN",
+    "SUB0",
+    "SUB1",
+    "SUB2"
+  ],
+  "audioMasterDefault":{
+    "card":"hw:0",
+    "muteControlName":"PCM Playback Switch",
+    "volumeControlName":"PCM Playback Volume"
+  }
+}
